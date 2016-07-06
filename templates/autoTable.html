@@ -1,0 +1,12 @@
+<table class="table table-striped table-hover">
+    <thead>
+        <tr>
+            <th ng-repeat="(key,value) in data[0]">{{key}}</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr ng-repeat="item in data">
+            <td ng-repeat="(key,value) in item">{{value}}</td>
+        </tr>
+    </tbody>
+</table>
